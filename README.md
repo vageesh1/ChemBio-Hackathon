@@ -38,6 +38,12 @@ I trained it for 10 epochs, here is the loss curve
 For inferencing, I have initialized the target sequences as zeros and the output probability is being calculated which I am later decoding using the dictionary I made from tokenizer by getting the ceratin string corresponding to the output 
 ![The Inference Result](https://github.com/vageesh1/BioChem-Hackathon/blob/main/Inference%20Result.jpg)
 
+## Files Descriptions 
+**Notebooks**- This folder contains all the experiments, preprocessing, and sample architectures, The **full Training Loop.ipynb** is our main file in which we compiled all of the architectures, pipelines and compiled into one and did the training. 
+Rest are the python files for each of the different component present, to do the training if needed on local machine 
+
+
+
 
 
 
