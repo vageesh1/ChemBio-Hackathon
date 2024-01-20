@@ -14,7 +14,7 @@ To give an overview of the problem statement, We are given a dataset that contai
 4. **Solvent**: The solvents used are listed in the solvent column for each reaction. Reaction conditions are greatly influenced by solvents, which also have an impact on reaction rates and results. 
 5. **Catalyst**: Substances known as catalysts quicken reactions without changing permanently. Understanding catalysts helps one gain an understanding of the efficiency and mechanism of reactions. 
 6. **Yield**: The yield column measures the effectiveness of the chemical reactions. Reaction yields are an essential metric for assessing the efficacy of the reaction conditions and measuring the success of the reaction. 
-[!Dataset]{https://github.com/vageesh1/BioChem-Hackathon/blob/main/Dataset.jpg}
+![Dataset](https://github.com/vageesh1/BioChem-Hackathon/blob/main/Dataset.jpg)
 
 
 ## Methodology 
@@ -36,7 +36,7 @@ I trained it for 10 epochs, here is the loss curve
 
 ## Inference 
 For inferencing, I have initialized the target sequences as zeros and the output probability is being calculated which I am later decoding using the dictionary I made from tokenizer by getting the ceratin string corresponding to the output 
-[!the inference result]{https://github.com/vageesh1/BioChem-Hackathon/blob/main/Inference%20Result.jpg}
+![The Inference Result](https://github.com/vageesh1/BioChem-Hackathon/blob/main/Inference%20Result.jpg)
 
 
 
