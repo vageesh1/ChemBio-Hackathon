@@ -1,4 +1,4 @@
-# BioChem-Hackathon
+# ChemBio-Hackathon
 This is our submission for the ChemBio AI hackathon conducted by ChemBio AI under Prometeo'24
 
 ## Problem Statement
