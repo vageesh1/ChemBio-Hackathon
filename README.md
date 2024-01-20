@@ -14,7 +14,7 @@ To give an overview of the problem statement, We are given a dataset that contai
 4. **Solvent**: The solvents used are listed in the solvent column for each reaction. Reaction conditions are greatly influenced by solvents, which also have an impact on reaction rates and results. 
 5. **Catalyst**: Substances known as catalysts quicken reactions without changing permanently. Understanding catalysts helps one gain an understanding of the efficiency and mechanism of reactions. 
 6. **Yield**: The yield column measures the effectiveness of the chemical reactions. Reaction yields are an essential metric for assessing the efficacy of the reaction conditions and measuring the success of the reaction. 
-![Dataset](https://github.com/vageesh1/BioChem-Hackathon/blob/main/Dataset.jpg)7
+![Dataset](https://github.com/vageesh1/BioChem-Hackathon/blob/main/Dataset.jpg)
 
 
 ## Methodology 
@@ -33,7 +33,7 @@ Here is an overview of the architecture and the flow of variables in our archite
 ## Training Details
 For Training, I have used Adam as the Optimizer and the MSE for the loss calculation, for each output loss is calculated and total loss is calculated by adding all the different loss and backpropagating the loss
 I trained it for 10 epochs, here is the loss curve
-![Loss Curve](https://github.com/vageesh1/BioChem-Hackathon/blob/main/Loss.jpg
+![Loss Curve](https://github.com/vageesh1/BioChem-Hackathon/blob/main/Loss.jpg)
 With the ongoing epochs, the loss is decreasing with each epoch, showing a combined mse loss of 300 range which keeps decreasing with each epoch
 
 ## Inference 
