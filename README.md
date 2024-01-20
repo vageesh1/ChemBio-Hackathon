@@ -18,22 +18,24 @@ To give an overview of the problem statement, We are given a dataset that contai
 
 
 ## Methodology 
-For this we used a graph-based seq2seq network. With a graph fused encoder based encoder and the transformer decoder for the decoder. The input goes for the smiley string and the output comes out as all three different Reagants.
+For this we used a graph-based seq2seq network. With a graph fused encoder-based encoder and the transformer decoder for the decoder. The input goes for the smiley string and the output comes out as all three different Reagants.
 Here is an overview of Model Architectures
 1. Any smiles contains a reaction, so first task is to separate both the reactant and product.
-2. Each of the product and reactant are parsed through the Graph Encoder which first gets the graph features and then apply attention encoder to it
+2. Each of the product and reactant are parsed through the Graph Encoder which first gets the graph features and then apply an attention encoder to it
 3. Then A decoder is attached and then the output of both is fused into a single space which is projected through 3 different classes to give our 3 different outputs
 4. The tokenizing and padding are based on count vectorizer and spacy
 5. The output comes as a 1d tensor which can be later decoded to be exact outputs
 
 ## Model Archietecure 
-Here is an overview of the architecture and the flow of variables in our architecture
+Here is an overview of the architecture and the flow of variables in our architecture. 
+Given below is the flow of variables, how the flow of variables is happening, what are the inputs and what are their respective outputs
+![Flow of Variables](https://github.com/vageesh1/BioChem-Hackathon/blob/main/Flow%20of%20Variables.jpg)
 
 
 ## Training Details
 For Training, I have used Adam as the Optimizer and the MSE for the loss calculation, for each output loss is calculated and total loss is calculated by adding all the different loss and backpropagating the loss
 I trained it for 10 epochs, here is the loss curve
-With the ongoing epochs, the loss is decreasing with each epoch, showing a combined mse loss of 300 range which keeps decreasing with each epoch
+With the ongoing epochs, the loss is decreasing with each epoch, showing a combined use loss of 300 range which keeps decreasing with each epoch
 ![Loss Curve](https://github.com/vageesh1/BioChem-Hackathon/blob/main/Loss.jpg)
 
 
