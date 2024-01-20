@@ -29,7 +29,9 @@ Here is an overview of Model Architectures
 ## Model Archietecure 
 Here is an overview of the architecture and the flow of variables in our architecture. 
 Given below is the flow of variables, how the flow of variables is happening, what are the inputs and what are their respective outputs
-![Flow of Variables](https://github.com/vageesh1/BioChem-Hackathon/blob/main/Flow%20of%20Variables.jpg)
+![Flow of Variables](https://github.com/vageesh1/BioChem-Hackathon/blob/main/Flow%20of%20Variables.jpg)<br>
+Given Below is the Detailed architecture 
+![Architecture](https://github.com/vageesh1/BioChem-Hackathon/blob/main/architecture.jpg)<br>
 
 
 ## Training Details
