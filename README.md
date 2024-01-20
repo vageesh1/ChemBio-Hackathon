@@ -33,8 +33,9 @@ Here is an overview of the architecture and the flow of variables in our archite
 ## Training Details
 For Training, I have used Adam as the Optimizer and the MSE for the loss calculation, for each output loss is calculated and total loss is calculated by adding all the different loss and backpropagating the loss
 I trained it for 10 epochs, here is the loss curve
-![Loss Curve](https://github.com/vageesh1/BioChem-Hackathon/blob/main/Loss.jpg)
 With the ongoing epochs, the loss is decreasing with each epoch, showing a combined mse loss of 300 range which keeps decreasing with each epoch
+![Loss Curve](https://github.com/vageesh1/BioChem-Hackathon/blob/main/Loss.jpg)
+
 
 ## Inference 
 For inferencing, I have initialized the target sequences as zeros and the output probability is being calculated which I am later decoding using the dictionary I made from tokenizer by getting the ceratin string corresponding to the output 
